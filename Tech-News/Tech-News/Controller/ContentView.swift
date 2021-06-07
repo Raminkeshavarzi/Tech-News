@@ -15,7 +15,10 @@ struct ContentView: View {
         NavigationView{
             List(networkManager.posts) {
                 post in
-                Text(post.title)
+                HStack {
+                    Text(String(post.points))
+                    Text(post.title)
+                }
             }
             .navigationTitle("Tech News")
         }
