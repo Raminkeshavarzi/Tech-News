@@ -64,7 +64,7 @@
 		F5E9CBF3266DCEA4001CDCED /* Tech-News */ = {
 			isa = PBXGroup;
 			children = (
-				F5E9CC0A266DD33C001CDCED /* Controller */,
+				F5E9CBFF266DCEA6001CDCED /* LaunchScreen.storyboard */,
 				F5E9CC09266DD336001CDCED /* View */,
 				F5E9CC08266DD32C001CDCED /* Models */,
 				F5E9CBF4266DCEA4001CDCED /* AppDelegate.swift */,
@@ -95,20 +95,20 @@
 		F5E9CC09266DD336001CDCED /* View */ = {
 			isa = PBXGroup;
 			children = (
+				F5E9CC13266DE276001CDCED /* assets */,
 				F5E9CBF8266DCEA4001CDCED /* ContentView.swift */,
-				F5E9CBFA266DCEA6001CDCED /* Assets.xcassets */,
-				F5E9CBFF266DCEA6001CDCED /* LaunchScreen.storyboard */,
 				F5E9CC0F266DDA91001CDCED /* DetailView.swift */,
 				F5E9CC11266DE1F2001CDCED /* WebView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
 		};
-		F5E9CC0A266DD33C001CDCED /* Controller */ = {
+		F5E9CC13266DE276001CDCED /* assets */ = {
 			isa = PBXGroup;
 			children = (
+				F5E9CBFA266DCEA6001CDCED /* Assets.xcassets */,
 			);
-			path = Controller;
+			path = assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
