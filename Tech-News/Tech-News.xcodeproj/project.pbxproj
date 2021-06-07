@@ -15,6 +15,7 @@
 		F5E9CC01266DCEA6001CDCED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5E9CBFF266DCEA6001CDCED /* LaunchScreen.storyboard */; };
 		F5E9CC0C266DD370001CDCED /* NetworkManger.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E9CC0B266DD370001CDCED /* NetworkManger.swift */; };
 		F5E9CC0E266DD4D2001CDCED /* PostData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E9CC0D266DD4D2001CDCED /* PostData.swift */; };
+		F5E9CC10266DDA91001CDCED /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E9CC0F266DDA91001CDCED /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		F5E9CC02266DCEA6001CDCED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F5E9CC0B266DD370001CDCED /* NetworkManger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManger.swift; sourceTree = "<group>"; };
 		F5E9CC0D266DD4D2001CDCED /* PostData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostData.swift; sourceTree = "<group>"; };
+		F5E9CC0F266DDA91001CDCED /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,8 +93,10 @@
 		F5E9CC09266DD336001CDCED /* View */ = {
 			isa = PBXGroup;
 			children = (
+				F5E9CBF8266DCEA4001CDCED /* ContentView.swift */,
 				F5E9CBFA266DCEA6001CDCED /* Assets.xcassets */,
 				F5E9CBFF266DCEA6001CDCED /* LaunchScreen.storyboard */,
+				F5E9CC0F266DDA91001CDCED /* DetailView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -100,7 +104,6 @@
 		F5E9CC0A266DD33C001CDCED /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				F5E9CBF8266DCEA4001CDCED /* ContentView.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -176,6 +179,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F5E9CC0E266DD4D2001CDCED /* PostData.swift in Sources */,
+				F5E9CC10266DDA91001CDCED /* DetailView.swift in Sources */,
 				F5E9CBF5266DCEA4001CDCED /* AppDelegate.swift in Sources */,
 				F5E9CBF7266DCEA4001CDCED /* SceneDelegate.swift in Sources */,
 				F5E9CC0C266DD370001CDCED /* NetworkManger.swift in Sources */,
